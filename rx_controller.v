@@ -1,7 +1,7 @@
 module rx_controller #(    
     parameter CLK_FREQ = 100_000_000_000,  // 100GHz clock
     parameter BAUD_RATE = 9600,
-    parameter RX_OVERSAMPLE = 16           // Oversampling factor (16x recommended) 
+    parameter RX_OVERSAMPLE = 16           // Oversampling factor 
 )
 (
     input wire clk,
